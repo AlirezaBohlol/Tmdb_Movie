@@ -7,16 +7,18 @@ import useStyles from './styles'
 
 function App() {
   const classes = useStyles()
-  return (<div className={classes.root}>
-    <CssBaseline />
-    <NavBar />
-    <main className={classes.content}>
-      <div className={classes.toolbar} />
-      <Routes>
-        {routers.map((router, index) => <Route key={index} {...router} />)}
-      </Routes>
-    </main>
-  </div>)
+  return (
+      <div className={classes.root}>
+        <CssBaseline />
+        <NavBar />
+        <main className={classes.content}>
+          <div className={classes.toolbar} />
+          <Routes>
+            {routers.map((router, index) => <Route key={index} {...router} />)}
+          </Routes>
+        </main>
+      </div>
+  )
 }
 
 export default App
