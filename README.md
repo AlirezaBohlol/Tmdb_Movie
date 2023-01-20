@@ -8,3 +8,4 @@ sign in to alan ai ('https://alan.app/') and import alanCode.js to project
 ## 🚀 Technologies:
 React.js, Material UI, Redux.js ,Redux-toolkit , voice-assistant :'alan -ai', MovieApi:'https://www.themoviedb.org/'
 
+completed
